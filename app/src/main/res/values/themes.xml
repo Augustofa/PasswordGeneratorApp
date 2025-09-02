@@ -10,6 +10,8 @@
         <item name="thumbWidth">20dp</item>
         <item name="thumbHeight">20dp</item>
         <item name="thumbRadius">20dp</item>
+        <item name="thumbColor">@color/blue</item>
+        <item name="trackColor">@color/blue_transp</item>
     </style>
 
     <style name="Theme.PasswordGenerator" parent="Base.Theme.PasswordGenerator" />
