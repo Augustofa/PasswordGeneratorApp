@@ -79,6 +79,11 @@ class MainActivity : AppCompatActivity() {
             enabledCharacters.append("!@#$%^&*()-_=+")
         }
 
+        if(enabledCharacters.isEmpty()){
+            Toast.makeText(applicationContext, "Select an option to use!", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         val secRand = SecureRandom()
         val password = StringBuilder(passwordSize)
 
