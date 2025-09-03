@@ -11,4 +11,5 @@
     <string name="uppercase_a_z">Uppercase (A-Z)</string>
     <string name="generate">Generate</string>
     <string name="password_generator">Password Generator</string>
+    <string name="_8">8</string>
 </resources>
